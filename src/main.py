@@ -71,5 +71,5 @@ def profile(username):
 #    print(url_for('profile', username='John Doe'))
 
 if __name__ == "__main__":
-    db = Database('localhost', 'root', '', 'academy')
+    db = Database('localhost', 'root', 'admin', 'academy')
     app.run(host='localhost', port=5000, debug=True)
